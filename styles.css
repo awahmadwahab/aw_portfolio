@@ -384,3 +384,99 @@ footer a
     justify-content: end;
     align-items: center;
 }
+
+
+
+/* ---------------------------------------------- Media Queries ------------------------------------ */
+
+
+@media screen and (max-width: 1200px) {
+    header {
+      width: 90%;
+      visibility: hidden;
+    }
+    #home {
+      flex-direction: column;
+      gap: 2rem;
+      margin: 3rem 1rem;
+    }
+    #txt {
+      width: 80%;
+    }
+    #project-list, #services-div {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .service-box {
+      max-width: 80%;
+    }
+    #txt {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      width: 100%;
+      padding: 0.5rem 0;
+    }
+    #home {
+      margin: 2rem 1rem;
+      padding-bottom: 3rem;
+    }
+    #txt {
+      width: 100%;
+    }
+    .project-box, .service-box {
+      width: 100%;
+      height: auto;
+    }
+    #contact p {
+      width: 80%;
+    }
+    .service-box {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    header 
+    {
+      width: 100%;
+      padding: 0.5rem;
+    }
+    #home {
+      margin: 1rem;
+      padding-bottom: 2rem;
+    }
+    #txt {
+      width: 100%;
+      padding: 5px 0 20px 0;
+      box-shadow: none;
+    }
+    #about, #services, #projects, #contact {
+      box-shadow: none;
+      padding: 0rem;
+      margin: 20px;
+    }
+    .project-box, .service-box {
+      width: 90%;
+      height: auto;
+      padding: 2rem;
+    }
+    .service-box img {
+      width: 90%;
+    }
+    #contact p {
+      width: 100%;
+    }
+    .btn {
+      width: 100%;
+    }
+    .service-box {
+      padding: 1rem;
+    }
+    main {
+        padding-top: 0px;
+    }
+  }
