@@ -1,65 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>AWX VIDEO</title>
-  </head>
-  <body>
-    <!-- navigation bar -->
-    <div id="navbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Ahmad Wahab, a Computer Science student at UET Lahore, showcasing his skills in web development, photography, and leadership. Explore projects, services, and more.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+  <title>awxvision</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul id="nav_list">
+        <li class="nav_item"><a href="#Home" aria-label="Go to home section">Home</a></li>
+        <li class="nav_item"><a href="#about" aria-label="Go to About section">About</a></li>
+        <li class="nav_item"><a href="#services" aria-label="Go to Services section">Services</a></li>
+        <li class="nav_item"><a href="#projects" aria-label="Go to Projects section">Projects</a></li>
+        <li class="nav_item"><a href="#contact" aria-label="Go to Contact section">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="Home">
+    <h1>PORTFOLIO</h1>
+    <hr>
+    <section id="home">
       <div>
-        <h1 id="logo">AWX VISION</h1>
+        <img id="profile_pic" src="images/aw.jpg" alt="Ahmad Wahab's profile picture" height="250" width="250">
+        <h4><SPAN class="text-1">Let's create</span> something great together!</h4>
+      </div> 
+      <div id="txt">
+        <h1>I'm Ahmad Wahab</h1>
+        <span id="typed"></span>   
+        <br>
+        <br>
+        <h4>CS Sophomore at <span class="text-1">UET LAHORE</span> | BETA <a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/0256c5d9-a487-4a58-b3cb-f0c426426ea9" target="_blank"><span class="text-1">MLSA</span></a></h4>
+        <a class="btn" href="mailto:aw865386@gmail.com" aria-label="Send email to Ahmad Wahab">LET'S CREATE</a>
+        <a class="btn" href="#contact" aria-label="Go to Contact section">CONTACT ME</a>
       </div>
-      <div class="nav-links">
-        <a href="#navbar">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+    </section>
+
+    <section id="about">
+      <h2>ABOUT ME</h2>
+      <hr>
+      <div>
+        Hi, I'm <span class="text-1">AHMAD WAHAB</span>, a 3rd-semester Computer Science student at UET Lahore. I’m passionate about blending creativity with technology and constantly seeking new ways to expand my knowledge and skills. I had the honor of being the only ALPHA MLSA (Microsoft Learn Student Ambassador) in my batch, a position that helped me grow both personally and professionally by allowing me to engage with a global network of learners and professionals.
+        <br>
+        I am proficient in <span class="text-1">HTML, CSS, and JavaScript</span>, and am currently exploring React to advance my front-end development skills. One of my notable projects includes building a professional website for an industry, showcasing their work and enhancing my development expertise.
+        <br>
+        Apart from coding, I am deeply passionate about <span class="text-1">photography</span>, specializing in portrait photography and cinematic storytelling. Photography is not just a hobby but a major skill that I’ve honed over time. I share my creative work on <a href="https://www.instagram.com/awxvision/" aria-label="Visit Ahmad Wahab's Instagram profile"><span class="text-1"><strong>Instagram</strong></span></a>, where I strive to tell compelling visual stories.
+        <br><br>
+        <span class="text-1">Experience</span>
+
+        <ul>
+          <li>
+            <span class="text-1">BETA MLSA</span>  (Microsoft Learn Student Ambassador)<br><br>
+            I has the privilege of being the only MLSA in my batch, where I will promote Microsoft technologies, organized events, and connected with other passionate students to create a learning community. This will help me to develop leadership, event management, and communication skills.
+          </li>
+          <br>
+
+          <li>
+            <span class="text-1">Co-Lead of Media</span> @ MLSA UET NC<br><br>
+            I support and promote the content created by the MLSA team, helping strategize and create impactful media to engage the student community.
+          </li>
+          <br>
+          <li>
+            <span class="text-1">Head of Videography</span> @ UET Tribune<br><br>
+            As the Head of Videography, I’ve had the opportunity to cover several campus events, creating and editing engaging content like reels. I’m proud to have been selected as the first-ever 2nd-year student for this role, recognized for my skills in visual storytelling. Now, I lead a team, training them in videography and editing.
+          </li>
+          <br>
+
+          <li>
+            <span class="text-1">Deputy Director of Photography</span> @ ACM UET NC<br><br>
+            I began as a member, but my passion for photography led me to cover numerous events, including recruitment drives and workshops.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services">
+     <h1>Services</h1>
+     <hr>
+     <div id="services-div">
+     <div class="service-box">
+        <img src="images/coding.jpg" alt="Coding" height="200" width="350">
+        <h2>Portfolio Websites</h2>
+        <p>As a frontend developer, I specialize in creating responsive, user-friendly and responsive website that are visually appealing and functional. I use HTML, CSS, and JavaScript to build websites that meet the client’s needs and exceed their expectations. I can help you bring your vision to life.</p>
+        <br>
+        <a class="btn" href="#projects" aria-label="Go to Projects section">VIEW PROJECTS</a>
+      </div>
+
+      <div class="service-box">
+        <img src="images/camera.jpg " alt="Photography" height="200" width="350">
+        <h2>Photography</h2>
+        <p>Photography is my passion, and I love capturing moments that tell a story. Whether you need professional headshots, event coverage, or product photography, I can help you create stunning visuals that will make a lasting impression. I specialize in portrait photography and cinematic storytelling, and I’m always looking for new opportunities to showcase my work.</p>
+        <br>
+        <a class="btn" href="https://www.instagram.com/awxvision/" aria-label="Visit Ahmad Wahab's Instagram profile">VIEW GALLERY</a>
+      </div>
+      
+      <div class="service-box">
+        <img src="images/Photoshop-Lightroom.jpeg" alt="Editing" height="200" width="350">
+        <h2>Editing</h2>
+        <p>Editing is an essential part of the creative process, and I have experience editing photos and videos to create compelling visual content. Whether you need color correction, retouching, or video editing, I can help you bring your vision to life. I use industry-standard software like Adobe Photoshop-Lightroom to ensure high-quality results that exceed your expectations.</p>
+        <br>
+        <a class="btn" href="https://www.instagram.com/awxvision/" aria-label="Visit Ahmad Wahab's Instagram profile">VIEW GALLERY</a>
+      </div>
+     </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <hr>
+    <div id="project-list">
+      <div class="project-box">
+        <h2>Portfolio Website</h2>
+        <p>Designed and developed a professional Portfolio Website</p>
+       <br>
+        <a class="btn" href="https://muawiaengineeringwork.netlify.app/" aria-label="View project details">VIEW PROJECT</a>
+      </div>
+      <div class="project-box">
+        <h2>Aggregate Calculator</h2>
+        <p>Developed a web-based ECAT Aggregate Calculator</p>
+        <br>
+        <a class="btn" href="https://https://ecat-calculator.netlify.app/" aria-label="View project">VIEW PROJECT</a>
+      </div>
+      <div class="project-box">
+        <h2>UI Design</h2>
+        <p>Designed a modern and user-friendly UI for a website of GLORIA-JEANS</p>
+        <br><br>
+        <a class="btn" href="https://github.com/awahmadwahab/gloria-jeans" aria-label="View project">VIEW PROJECT</a>
       </div>
     </div>
+    <BR><br>
+    <a id="btn-1" href="https://github.com/awahmadwahab?tab=repositories">VIEW ALL</a>
+    </section>
 
-    <!-- hero section-->
-    <div class="hero">
-      <div class="hero-main">
-        <h1>AWX<span class="yellow">VISION</span></h1>
-        <h3>
-          Turn your Raw Footage into a
-          <span class="yellow">Stunning</span> Masterpiece
-        </h3>
-        <p>
-          We provide <span class="yellow">High-quality</span> video editing
-          services <span class="yellow">Long Form</span> videos and Short form
-          <span class="yellow">Reels/Shorts</span>
-        </p>
+    <section id="contact">
+      <h1>Contact</h1>
+      <hr>
+      <br><br>
+      <div id="contact-div">
+        <h3>Let's create something great together!</h3>
+        <p>Whether you have a project in mind, want to collaborate, or just want to say hello, I’d love to hear from you. Feel free to reach out to me via email or connect with me on social media. Let’s create something amazing together!</p>
+        <br>
+        <a href="mailto:aw865386@gmail.com" class="fa fa-envelope" aria-label="Send email to Ahmad Wahab"></a>
+        <a href="https://wa.me/+923426084562" class="fa fa-whatsapp" aria-label="Visit Ahmad Wahab's WhatsApp profile"></a>
+        <a href="https://www.instagram.com/awxvision/" class="fa fa-instagram" aria-label="Visit Ahmad Wahab's Instagram profile"></a>
+        <a href="https://github.com/awahmadwahab" class="fa fa-github" aria-label="Visit Ahmad Wahab's GitHub profile"></a>
+        <a href="https://medium.com/@awxvision/how-i-become-mlsa-microsoft-learn-student-ambassador-in-2024-858edc92f142" class="fa fa-medium" aria-label="Visit Ahmad Wahab's Medium profile"></a>
+        <a href="https://www.linkedin.com/in/awahmadwahab" class="fa fa-linkedin" aria-label="Visit Ahmad Wahab's LinkedIn profile"></a>
+      </div>
+      
 
-        <!-- hero animation-->
-        <dotlottie-player
-          class="animation"
-          src="https://lottie.host/c7df852b-87be-439a-b0bd-6204ab48cf69/GHXD8cux8S.lottie"
-          background="transparent"
-          speed="0.9"
-          style="width: 200px; height: 200px"
-          loop
-          autoplay
-        ></dotlottie-player>
-      </div>
-      <div class="buttons">
-        <button>
-          <a href="https://wa.me/+923426084562" target="_blank">GET STARTED</a>
-        </button>
-        <button>
-          <a href="https://www.instagram.com/awxvision" target="_blank"
-            >LATEST WORK</a
-          >
-        </button>
-      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>
+        <p> <span class="text-1">&copy; Designed by AW</span>. All rights reserved.</p>
     </div>
+  </footer>
 
-    <!-- hero section-->
-  </body>
-  <script
-    src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-    type="module"
-  ></script>
+  <script></script>
+  <script src="app.js"></script>
+</body>
 </html>
